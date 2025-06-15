@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Redirecting to Portals</title>
+  <style>
+    html, body {
+      background: #0f0f0f;
+      color: white;
+      font-family: sans-serif;
+      height: 100%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    button {
+      background: #ff4081;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Launch Portals Mini App</h2>
+  <button onclick="redirect()">Open Portals</button>
+
+  <script>
+    function redirect() {
+      window.location.href = "https://t.me/portals_market_bot?startapp";
+    }
+  </script>
+</body>
+</html>
